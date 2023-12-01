@@ -1,0 +1,1007 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    width: 200px;
+}
+
+.bme-footer{
+    text-decoration: none;
+    color: #2081ff;
+}
+.development-footer{
+    color: #253e5f;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.navbar-collapse{
+    justify-content: end;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #253e5f;
+    font-weight: 600;
+}
+
+.dropdown-menu .dropdown-item{
+    line-height: 2rem;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    border-radius: 5px;
+}
+.dropdown-menu {
+    border: 1px solid transparent;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.section{
+    margin-top: 5rem;
+}
+
+.head-title{
+    font-size: 3rem;
+    color: #253e5f;
+    font-weight: 600;
+}
+.head-desc{
+    font-size: 1.1rem;
+    color: #253e5f;
+}
+
+.form-departure{
+    display: flex;
+    flex-direction: row;
+
+}
+.form-departure input{
+    height: 50px;
+}
+
+.form-departure input:nth-child(1){
+    max-width: 300px;
+}
+.form-departure input:nth-child(2){
+    max-width: 300px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.form-departure input:nth-child(3){
+    max-width: 300px;
+}
+
+.section .checks{
+    padding-top: 1rem;
+}
+
+.section .checks span{
+    color: #253e5f;
+    font-size: 15px;
+}
+
+.wrapper-regulations{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 100px;
+    align-items: center;
+}
+
+.wrapper-regulations h6{
+    font-size: 1.2rem;
+    color: #253e5f;
+    border-radius: 4px;
+}
+
+.section-2{
+    margin-top: 2rem;
+    padding-top: 5rem;
+    background-color: #f3f6f9;
+}
+
+.section-2 .title-card{
+    font-size: 2rem;
+    color: #253e5f;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 3rem;
+}
+
+.section-2 .card{
+    max-width: 500px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.section-2 .card-1
+{
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.section-2 .card-1
+{
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.section-2 .card .card-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 1.8rem;
+}
+
+.section-2 .card .card-subtitle{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+.section-2 .card .card-text{
+    padding-left: 1.5rem;
+}
+
+.section-2 .card-2{
+    border: 1px solid transparent;
+    border-radius: 1rem;
+}
+
+.section-2 .card hr{
+    margin-bottom: 1rem;
+    opacity: 0.1;
+}
+
+.section-2 .wrapp-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-2 .section2-second-row{
+    margin-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+.section-2 .section2-second-row span{
+    font-size: 15px;
+    color: #2081ff;
+}
+
+.section-2 .section2-second-row h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #253e5f;
+    padding-top: 1rem;
+    text-align: center;
+}
+.section-2 .section2-second-row .wrapp-head p{
+    max-width: 600px;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.section-2 .section2-second-row .card{
+    max-width: 300px;
+    min-height: 350px;
+    text-align: start;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+}
+
+.section-2 .section2-second-row .card .card-title{
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.section-2 .section2-second-row .card .card-text{
+    padding: 0;
+    align-items: center;
+    color: #253e5f;
+}
+.section-2 .section2-second-row .card .card-body{
+    padding: 0;
+    color: #253e5f;
+}
+.section-2 .section2-second-row .card i{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.section-2 .card button{
+    margin-top: 1rem;
+}
+
+.section-3{
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.section-3 .wrapp-head{
+    margin-top: 6rem;
+}
+
+.section-3 span{
+    font-size: 15px;
+    color: #2081ff;
+}
+
+.section-3 h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #253e5f;
+}
+
+.section-3 .wrapp-head .wrapp-desc{
+    color: #253e5f;
+    max-width: 500px;
+    padding-top: 1rem;
+}
+
+.section-3 .wrapp-head button{
+    width: 80%;
+}
+.section-3 .wrapp-body{
+    margin-top: 3rem;
+}
+.section-3 h3{
+    max-width: 500px;
+    font-size: 2rem;
+    color: #253e5f ;
+    font-weight: 600;
+}
+
+.section-3 h5{
+    font-size: 2rem;
+    color: #2081ff;
+    font-weight: 600;
+}
+
+.section-3 p{
+    color: #253e5f;
+}
+
+.section-4{
+    margin-top: 5rem;
+    background-color: #f3f6f9;
+    padding-top: 5rem;
+}
+
+.section-4 .logo-footer{
+    width: 150px;
+}
+
+.section-4 .footer-desc{
+    font-size: 13px;
+    padding-top: 5px;
+    color: #253e5f;
+    opacity: 0.8;
+}
+
+.section-4 h6{
+    font-size: 1.2rem;
+    color: #253e5f;
+    font-weight: 600;
+}
+.section-4 ul{
+    padding: 0;
+    color: #253e5f;
+}
+.section-4 ul li{
+    line-height: 2rem;
+    list-style: none;
+}
+.section-4 ul a{
+    text-decoration: none;
+    color: #253e5f;
+    font-size: 15px;
+}
+
+
+/* Media Queries */
+
+/* Section*/
+@media only screen and (max-width: 768px) {
+    form-departure input{
+    height: 50px;
+}
+
+
+.form-departure input:nth-child(1){
+    max-width: 220px;
+}
+.form-departure input:nth-child(2){
+    max-width: 220px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.form-departure input:nth-child(3){
+    max-width: 300px;
+}
+
+.section .wrapper-regulations{
+    text-align: start;
+}
+.section .wrapper-regulations h6{
+    font-size: 13px;
+}
+
+
+/* Section 2 */
+.section-2 .title-card{
+    font-size: 2rem;
+    color: #253e5f;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+
+
+
+.section-2 .card .card-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 1.8rem;
+}
+
+.section-2 .card .card-subtitle{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+.section-2 .card .card-text{
+    padding-left: 1.5rem;
+    font-size: 15px;
+}
+
+.section-2 .card-2{
+    border: 1px solid transparent;
+    border-radius: 1rem;
+}
+
+.section-2 .card hr{
+    margin-bottom: 1rem;
+    opacity: 0.1;
+}
+
+.section-2 .card {
+    margin-top: 1rem;
+}
+
+/* Section 3*/
+.section-3 .wrapp-head{
+    margin-top: 0;
+}
+
+.section-3 hr{
+    margin-top: 2rem;
+    opacity: 0.1;
+}
+}
+
+@media only screen and (max-width: 600px) {
+    /* Section */
+.form-departure{
+    flex-direction: column;
+}
+
+.form-departure input{
+    margin-left: 0!important;
+    margin-top: 1rem;
+    max-width: 100%!important;
+}
+
+.form-departure button{
+    margin-top: 1rem;
+}
+
+.section .wrapper-regulations{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    height: auto;
+    justify-content: center;
+}
+.section .wrapper-regulations h6{
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Section 2 */
+.section-2 .card{
+    margin-top: 1rem;
+}
+
+/* Section 3*/
+
+.section-3 .wrapp-body{
+    text-align:center;
+}
+.section-3 .wrapp-head button{
+    width: 100%;
+}
+.section-3 .wrapp-body h3{
+    font-size:1.5rem!important;
+}
+}
+
+.aside-wrapper{
+    background-color: #f3f6f9;
+    min-height: 100vh;
+}
+.form-style{
+    background-color: #f3f6f9;
+    padding: 2rem;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 2rem;
+}
+
+.form-title{
+    color: #253e5f;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+}
+
+#addButton , #addDivButton1{
+    color: #2081ff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ .box label{
+    display: flex;
+  height: 53px;
+  width: 100%;
+  align-items: center;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding-left: 11px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+#value-1:checked ~ .value-1,
+#value-2:checked ~ .value-2,
+#value-3:checked ~ .value-3,
+#value-4:checked ~ .value-4,
+#value-5:checked ~ .value-5,
+#value-6:checked ~ .value-6{
+background: #253e5f;
+border-color:#253e5f;
+}
+#connecting-1:checked ~ .connecting-1,
+#connecting-2:checked ~ .connecting-2{
+background: #253e5f;
+border-color:#253e5f;
+}
+#flight_disruption-1:checked ~ .flight_disruption-1,
+#flight_disruption-2:checked ~ .flight_disruption-2,
+#flight_disruption-3:checked ~ .flight_disruption-3{
+background: #253e5f;
+border-color:#253e5f;
+}
+#delayed_hours-1:checked ~ .delayed_hours-1,
+#delayed_hours-2:checked ~ .delayed_hours-2,
+#delayed_hours-4:checked ~ .delayed_hours-4,
+#delayed_hours-5:checked ~ .delayed_hours-5,
+#delayed_hours-6:checked ~ .delayed_hours-6,
+#delayed_hours-3:checked ~ .delayed_hours-3{
+background: #253e5f;
+border-color:#253e5f;
+}
+#cancellation_notification-1:checked ~ .cancellation_notification-1,
+#cancellation_notification-2:checked ~ .cancellation_notification-2{
+background: #253e5f;
+border-color:#253e5f;
+}
+#traveling_alone-1:checked ~ .traveling_alone-1,
+#traveling_alone-2:checked ~ .traveling_alone-2{
+background: #253e5f;
+border-color:#253e5f;
+}
+ .box label .select-dots{
+height: 20px;
+width: 20px;
+background: #d9d9d9;
+border-radius: 50%;
+position: relative;
+transition: all 0.3s ease;
+}
+#value-1:checked ~ .value-1 .select-dots,
+#value-2:checked ~ .value-2 .select-dots,
+#value-3:checked ~ .value-3 .select-dots,
+#value-4:checked ~ .value-4 .select-dots,
+#value-5:checked ~ .value-5 .select-dots,
+#value-6:checked ~ .value-6 .select-dots{
+background: #fff;
+}
+#connecting-1:checked ~ .connecting-1 .select-dots,
+#connecting-2:checked ~ .connecting-2 .select-dots{
+    background: #fff;
+}
+#flight_disruption-1:checked ~ .flight_disruption-1 .select-dots,
+#flight_disruption-2:checked ~ .flight_disruption-2 .select-dots,
+#flight_disruption-3:checked ~ .flight_disruption-3 .select-dots{
+    background: #fff;
+}
+#delayed_hours-1:checked ~ .delayed_hours-1 .select-dots,
+#delayed_hours-2:checked ~ .delayed_hours-2 .select-dots,
+#delayed_hours-4:checked ~ .delayed_hours-4 .select-dots,
+#delayed_hours-5:checked ~ .delayed_hours-5 .select-dots,
+#delayed_hours-6:checked ~ .delayed_hours-6 .select-dots,
+#delayed_hours-3:checked ~ .delayed_hours-3 .select-dots{
+    background: #fff;
+}
+#cancellation_notification-1:checked ~ .cancellation_notification-1 .select-dots,
+#cancellation_notification-2:checked ~ .cancellation_notification-2 .select-dots{
+    background: #fff;
+}
+#traveling_alone-1:checked ~ .traveling_alone-1 .select-dots,
+#traveling_alone-2:checked ~ .traveling_alone-2 .select-dots{
+    background: #fff;
+}
+.box label .select-dots::before{
+position: absolute;
+content: "";
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%) scale(2);
+width: 9px;
+height: 9px;
+border-radius: 50%;
+transition: all 0.3s ease;
+}
+#value-1:checked ~ .value-1 .select-dots::before,
+#value-2:checked ~ .value-2 .select-dots::before,
+#value-3:checked ~ .value-3 .select-dots::before,
+#value-4:checked ~ .value-4 .select-dots::before,
+#value-5:checked ~ .value-5 .select-dots::before,
+#value-6:checked ~ .value-6 .select-dots::before{
+background: #253e5f;
+transform: translate(-50%, -50%) scale(1);
+}
+#connecting-1:checked ~ .connecting-1 .select-dots::before,
+#connecting-2:checked ~ .connecting-2 .select-dots::before{
+    background: #253e5f;
+    transform: translate(-50%, -50%) scale(1);
+}
+#flight_disruption-1:checked ~ .flight_disruption-1 .select-dots::before,
+#flight_disruption-2:checked ~ .flight_disruption-2 .select-dots::before,
+#flight_disruption-3:checked ~ .flight_disruption-3 .select-dots::before{
+    background: #253e5f;
+    transform: translate(-50%, -50%) scale(1);
+}
+#delayed_hours-1:checked ~ .delayed_hours-1 .select-dots::before,
+#delayed_hours-2:checked ~ .delayed_hours-2 .select-dots::before,
+#delayed_hours-4:checked ~ .delayed_hours-4 .select-dots::before,
+#delayed_hours-5:checked ~ .delayed_hours-5 .select-dots::before,
+#delayed_hours-6:checked ~ .delayed_hours-6 .select-dots::before,
+#delayed_hours-3:checked ~ .delayed_hours-3 .select-dots::before{
+    background: #253e5f;
+    transform: translate(-50%, -50%) scale(1);
+}
+#cancellation_notification-1:checked ~ .cancellation_notification-1 .select-dots::before,
+#cancellation_notification-2:checked ~ .cancellation_notification-2 .select-dots::before{
+    background: #253e5f;
+    transform: translate(-50%, -50%) scale(1);
+}
+#traveling_alone-1:checked ~ .traveling_alone-1 .select-dots::before,
+#traveling_alone-2:checked ~ .traveling_alone-2 .select-dots::before{
+    background: #253e5f;
+    transform: translate(-50%, -50%) scale(1);
+}
+.box label .text{
+color: #333;
+font-size: 18px;
+font-weight: 400;
+padding-left: 10px;
+transition: color 0.3s ease;
+}
+#value-1:checked ~ .value-1 .text,
+#value-2:checked ~ .value-2 .text,
+#value-3:checked ~ .value-3 .text,
+#value-4:checked ~ .value-4 .text,
+#value-5:checked ~ .value-5 .text,
+#value-6:checked ~ .value-6 .text{
+color: #fff;
+}
+#connecting-1:checked ~ .connecting-1 .text,
+#connecting-2:checked ~ .connecting-2 .text{
+    color: #fff;
+}
+#flight_disruption-1:checked ~ .flight_disruption-1 .text,
+#flight_disruption-2:checked ~ .flight_disruption-2 .text,
+#flight_disruption-3:checked ~ .flight_disruption-3 .text{
+    color: #fff;
+}
+#delayed_hours-1:checked ~ .delayed_hours-1 .text,
+#delayed_hours-2:checked ~ .delayed_hours-2 .text,
+#delayed_hours-4:checked ~ .delayed_hours-4 .text,
+#delayed_hours-5:checked ~ .delayed_hours-5 .text,
+#delayed_hours-6:checked ~ .delayed_hours-6 .text,
+#delayed_hours-3:checked ~ .delayed_hours-3 .text{
+    color: #fff;
+}
+#cancellation_notification-1:checked ~ .cancellation_notification-1 .text,
+#cancellation_notification-2:checked ~ .cancellation_notification-2 .text{
+    color: #fff;
+}
+#traveling_alone-1:checked ~ .traveling_alone-1 .text,
+#traveling_alone-2:checked ~ .traveling_alone-2 .text{
+    color: #fff;
+}
+.box input[type="radio"]{
+display: none;
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.logo-mobile{
+    display: none;
+}
+.logo-form{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    width: 220px;
+}
+.bottom-image{
+    width: 450px;
+    bottom: 0;
+    left: 10%;
+    opacity: 0.6;
+    position: absolute;
+}
+
+@media (max-width: 1441px){
+    .bottom-image{
+        width: 330px;
+        bottom: 0;
+        left: 10%;
+        position: absolute;
+        opacity: 0.6;
+    }
+}
+
+@media (max-width: 1281px){
+    .bottom-image{
+        width: 300px;
+        bottom: 0;
+        left: 10%;
+        position: absolute;
+        opacity: 0.6;
+    }
+}
+
+@media (max-width: 920px) {
+    .aside-wrapper{
+        display: none;
+    }
+    .box label .text{
+        font-size: 13px;
+    }
+    .form-title{
+        font-size: 1.1rem;
+    }
+    #multi-step-form-container{
+        margin-top: 0px!important;
+    }
+    .form-step{
+        padding: 1rem!important;
+    }
+    .logo-mobile{
+        display: flex;
+        width: 180px;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 474px) {
+    .head-title{
+        font-size: 1.8rem;
+    }
+    .d-mobile{
+        display: inline!important;
+    }
+    .d-desktop{
+        display: none!important;
+    }
+    .card-title{
+        font-weight: 600;
+    }
+    .card-subtitle{
+        font-weight: 600;
+    }
+    .icon {
+        padding-top:2rem!important;
+        padding-left: 1.2rem;
+        min-width: 40px;
+    }
+    /* body{
+        position: relative;
+    }
+    .button-fixed{
+        position: fixed;
+        bottom: 10px;
+        width: 90%;
+        margin: auto;
+    } */
+}
+
+.d-desktop{
+    display: block;
+}
+
+.d-mobile{
+    display: none;
+}
+
+.cards {
+    display: flex;
+    padding: 25px 0px;
+    list-style: none;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .card4 {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 70%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
+    scroll-snap-align: start;
+    transition: all 0.2s;
+  }
+  
+  .card4:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  /* .card4:hover {
+    color: var(--white);
+    background: var(--red);
+  } */
+  
+  .card4.card-title {
+    font-size: 20px;
+  }
+  
+  .card4 .card-content {
+    margin: 20px 0;
+    max-width: 85%;
+  }
+  
+  .card4 .card-link-wrapper {
+    margin-top: auto;
+  }
+  
+  .card4 .card-link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    /* background: var(--red); */
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: background 0.2s;
+  }
+  
+  .card4:hover .card-link {
+    background: var(--darkred);
+  }
+  
+  .cards::-webkit-scrollbar {
+    height: 12px;
+  }
+  
+  .cards::-webkit-scrollbar-thumb,
+  .cards::-webkit-scrollbar-track {
+    border-radius: 92px;
+  }
+  
+  .cards::-webkit-scrollbar-thumb {
+    background: #253e5f;
+  }
+  
+  .cards::-webkit-scrollbar-track {
+    background: #edf2f4;
+  }
+  
+  @media (min-width: 500px) {
+    .card4 {
+      flex-basis: calc(50% - 10px);
+    }
+  
+    .card4:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    
+  }
+  
+  @media (min-width: 700px) {
+
+    .card4 {
+      flex-basis: calc(calc(100% / 3) - 20px);
+    }
+  
+    .card4:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  
+  @media (min-width: 1100px) {
+    .card4 {
+      flex-basis: calc(25% - 30px);
+    }
+  
+    .card4:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+
+  .input-icons i {
+    position: absolute;
+}
+  
+
+  
+.icon {
+    padding-top:1rem;
+    padding-left: 1.5rem;
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+
+
+/* Our Fees Style */
+.section-fee{
+    margin-top: 2rem;
+    padding-top: 5rem;
+    /* background-color: #f3f6f9; */
+}
+
+.section-fee .title-card{
+    font-size: 2rem;
+    color: #253e5f;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 3rem;
+}
+
+.section-fee .card{
+    max-width: 500px;
+    margin: auto;
+    padding: 0.7rem;
+}
+
+
+.section-fee .card-1
+{
+    border-radius: 1rem;
+    border: 3px solid #2081ff;
+    margin-bottom: 1rem;
+}
+
+.section-fee .card .card-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 1.8rem;
+    text-align: center;
+}
+.section-fee .card .fee-span{
+    background-color: #008000;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    font-size: 11px;
+    margin: auto;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    margin-bottom: 1rem;
+}
+.section-fee .card i{
+    padding-right: 0.6rem;
+}
+
+.section-fee .card .card-subtitle{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+
+
+.section-fee .card-2{
+    border: 1px solid #edf2f4;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section-fee .card-2 .card-text, .section-fee .card-1 .card-text{
+    line-height: 2.4rem;
+}
+.section-fee .card button{
+    margin-top: 1rem;
+}
+
+.section-fee .second-fee-row{
+    margin-top: 5rem;
+    text-align: start;
+}
+
+.section-fee .second-fee-row h5 span{
+    font-weight: bold;
+    color: #253e5f;
+}
+
+.section-fee .fee-head{
+    text-align: center;
+    color: #253e5f;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.section-fee .fee-desc{
+    padding-top: 2rem;
+    margin: auto;
+}
+
+/* Terms condition style*/
+
+.section-terms{
+    margin-top: 5rem;
+}
+
+.section-terms .terms-head{
+    color: #253e5f;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.section-terms .terms-desc{
+    font-size: 18px;
+}
+
+.section-terms .terms-use{
+    color: #253e5f;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.section-terms .use-service{
+    font-size: 1.4rem;
+    color: #253e5f;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
